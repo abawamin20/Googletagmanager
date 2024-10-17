@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="GoogleTagManager"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="df694dbd-611a-46af-adb9-e81c43c901af"
+        ClientSideComponentProperties="{&quot;googleMeasurementId&quot;:&quot;G-XXXXXXXXX&quot;,&quot;scriptFileUrl&quot;:&quot;https://yourcdn.com/path/to/google-analytics.js&quot;,&quot;scriptFileName&quot;:&quot;google-analytics.js&quot;}"
+    >
+    </CustomAction>
+</Elements>

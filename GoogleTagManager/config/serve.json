@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "",
+      "customActions": {
+        "df694dbd-611a-46af-adb9-e81c43c901af": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "googleTagManager": {
+      "pageUrl": "",
+      "customActions": {
+        "df694dbd-611a-46af-adb9-e81c43c901af": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "googleMeasurementId": "YOUR-GA-ID",
+            "scriptFileName": "YOUR_SCRIPT_FILE_NAME",
+            "scriptFileUrl": "https://path-to-your-script-file.js"
+          }
+        }
+      }
+    }
+  }
+}
